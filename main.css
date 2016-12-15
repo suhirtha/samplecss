@@ -1,0 +1,40 @@
+
+body{
+	background-color:#bfbfbf;
+	}
+.nav{
+	position: fixed;
+	top:0px;
+	background-color: #329393;
+	width:100%;
+}
+.nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+.nav li{
+	display:inline;
+}
+.nav li a:link , a:visited {
+	display: block;
+	float: left;
+	padding: 1em 2em;
+	text-decoration: none;
+	background-color: #f44336; 
+	color:white;
+	border-right: 1px solid black;
+
+}
+.nav li a:hover{
+	background-color:#ff6600;
+	color:black;
+}
+.nav li a:active{
+	text-decoration: underline;
+}
+.downtown li{
+padding: 1em;
+background-color: white; 
+}
